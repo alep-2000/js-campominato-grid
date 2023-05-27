@@ -5,32 +5,58 @@
 }
 
 body{
-    background-color: rgb(88, 3, 3);
+    background-color: wheat;
+}
+
+main{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.title{
+    background-color: wheat;
+    height: 60px;
+}
+
+h1{
+    text-align: center;
+    padding: 10px 0;
+    color: rgb(167, 12, 12);
+}
+
 button{
     font-size: 13px;
-    background-color: aqua;
+    background-color: darkseagreen;
     border-radius: 5px;
     padding: 5px;
     margin: 10px;
+    border: 2px solid black;
+    color: black;
 }
 
 #grid{
     display: flex;
     flex-wrap: wrap;
-    width: 900px ;
-    height: 900px;
+    width: 600px ;
+    height: 600px;
+    margin-top: 50px;
 }
 
 .square{
-    width: calc(900px / 10);
-    height: calc(900px / 10);
-    background-color: greenyellow;
-    border: 2px solid black;
+    width: calc(600px / 10);
+    height: calc(600px / 10);
+    background-color: olive;
+    border: 2px solid saddlebrown;
+    color: black;
+}
+
+.invisible{
+    display: none;
+}
+
+.visible{
+    display: block;
 }
 
 .clicked{

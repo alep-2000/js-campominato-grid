@@ -6,11 +6,14 @@ SOLUZIONE:
 1 - Inserire un div con id='grid' nel DOM;
 2 - Inserire un button nel DOM;
 3 - Recuperare nel javascript l'elemento con id='grid';
-4 - Creare una funzione;
-    4.1 - Creare singolo quadratino con createElement('div);
-    4.2 - Creo una classe con classList.add(square);
-5 - Creare CICLO FOR;   
-6 - Creo una funzione in cui aggiungo un evento al click con addEventListener;
-    6.1 - Quando clicco il quadratino diventa azzurro, quando riclicco torna normale aggiungendo la classe 'clicked' con .classList;
-7 - Appendo l'elemento con id='grid';
-8 - Stampo nel DOM;
+4 - Recuperare nel javascript l'elemento con id='button';
+5 - Creare una funzione;
+    5.1 - Creare singolo quadratino con createElement('div);
+    5.2 - Creare una classe con classList.add(square);
+    5.3 - Creare una classe con classList.add(invisible);
+6 - Creare CICLO FOR;   
+7 - Creo una funzione in cui aggiungo un evento al click con addEventListener;
+    7.1 - Quanto clicco il button appare la griglia
+    7.1 - Quando clicco il quadratino diventa azzurro, quando riclicco torna normale aggiungendo la classe 'clicked' con .classList;
+8 - Appendo l'elemento con id='grid';
+9 - Stampo nel DOM;
